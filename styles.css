@@ -1,0 +1,112 @@
+*{
+  background-color: #FFEAA7;
+}
+
+body{
+  margin: 0;
+}
+
+.grid{
+  display: grid;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 40px;
+  width: 40%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 150px 80px 180px 200px 50px;
+  color: #FFBB64;
+}
+
+h1{
+  grid-column: span 2;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 110px;
+}
+
+h3{
+  margin: auto;
+  font-size: 30px;
+}
+
+img{
+  height: 0px;
+  width: 0px;
+  margin: auto;
+  visibility: hidden;
+}
+
+h4{
+  grid-column: span 2;
+  text-align: center;
+  grid-row-start: 5;
+}
+
+.new-amsterdam-regular {
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.matemasie-regular {
+  font-family: "Matemasie", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.visible1{
+  visibility: visible;
+  height: 200px;
+  width: 200px;
+  grid-row-start: 3;
+}
+
+.visible2{
+  visibility: visible;
+  height: 200px;
+  width: 200px;
+  grid-row-start: 3;  
+}
+
+.button-8 {
+  background-color: #FFBB64;
+  border-radius: 3px;
+  border: 1px solid #FF6868;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #FF6868;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  grid-row-start: 4;
+  grid-column: span 2;
+  margin: auto;
+  width: 150px;
+  height: 40px;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #FFBB64;
+  color: #2c5777;
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #FFEAA7;
+}
